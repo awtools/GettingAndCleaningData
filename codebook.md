@@ -13,15 +13,15 @@ Training Data
 - subject_train.txt
 
 Test Data
--X_test.txt
--y_test.txt
--subject_test.txt
+- X_test.txt
+- y_test.txt
+- subject_test.txt
 
--features.txt
--activity_labels.txt
+- features.txt
+- ctivity_labels.txt
 
 # Tidy data
--finalData_tidy.txt
+- finalData_tidy.txt
 
 ## Variables
  [1] "subjectId"                                                      
@@ -108,7 +108,7 @@ Test Data
 
 # Steps to reproduce the way from raw to tidy data set
 ## Step 1: Read in all the Data into R memory
-read all the raw text files into seperate variables
+Read all the raw text files into seperate variables
 
 ## Step 2: Update the Columnnames 
 Update the columnnames with the features.txt file and own names for activity and subject to make it easier to merge and to identify the mean and std values 
