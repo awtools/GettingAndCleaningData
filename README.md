@@ -21,7 +21,5 @@ R script run_analysis.R that does the following.
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-## Pre-Steps
-- Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
-- Unzip it to "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory
-- load the library plyr into R (install package if the package is not present on your system)
+## Additional Infomartion
+For additional information you can read the coodebook.md
