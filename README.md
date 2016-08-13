@@ -3,7 +3,7 @@
 This is my solution for the Coursera Course Project of Getting and Cleaning Data
 
 ## Files
-- codebook.md         Codebook to understand the variables and the steps done to the data in the run_Analysis.R Script
+- codebook.md         Codebook to understand the variables and the steps done to the data in the run_analysis.R Script
 - run_analysis.R      the R-Script to get the tidy data from the raw input
 - finalData_tidy.txt  Tidy DataSet
 
