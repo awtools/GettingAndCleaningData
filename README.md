@@ -11,3 +11,17 @@ This is my solution for the Coursera Course Project of Getting and Cleaning Data
 The R-Script run_analysis.R needs the following condition to run. 
 - Donwloaded an unziped data into the directory "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory 
 - Data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+## Description
+R script run_analysis.R that does the following.
+
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement.
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names.
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+
+## Pre-Steps
+- Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Unzip it to "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory
+- load the library plyr into R (install package if the package is not present on your system)
