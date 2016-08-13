@@ -17,8 +17,9 @@ Test Data
 - y_test.txt
 - subject_test.txt
 
+Others
 - features.txt
-- ctivity_labels.txt
+- activity_labels.txt
 
 # Tidy data
 - finalData_tidy.txt
