@@ -2,15 +2,15 @@
 # Script: run_Analysis.R
 
 ## Pre-Steps
--Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
--Unzip it to "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory
--load the library plyr into R (install package if the package is not present on your system)
+- Download the data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+- Unzip it to "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory
+- load the library plyr into R (install package if the package is not present on your system)
 
 ## Raw Data
 Training Data
--X_train.txt
--y_train.txt
--subject_train.txt
+- X_train.txt
+- y_train.txt
+- subject_train.txt
 
 Test Data
 -X_test.txt
