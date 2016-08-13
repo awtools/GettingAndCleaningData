@@ -119,16 +119,19 @@ Merge X_train.txt, y_train.txt and subject_train.txt with cbind to get one datas
 Merge X_test.txt, y_test.txt and subject_test.txt with cbind to get one dataset for the test data
 Merge the two new datasets with rbind to combine them into one dataset you need for the analysis
 
-## Step4: Extracts only the measurements on the mean and standard deviation for each measurement.
+## Step 4: Extracts only the measurements on the mean and standard deviation for each measurement.
 Select (with grepl) only the columns with mean or standard deviation + activityId and subjectId for merging data sets later on
 
-## Step5:. Appropriately labels the data set with descriptive names.
+## Step 5: Uses descriptive activity names to name the activities in the data set
+Join the data set with the activiy labels to get descriptive names for the activitiyId. After tha remove the Id activitiyId column.
+
+## Step 6:. Appropriately labels the data set with descriptive names.
 Make the Columnnames more readable (with gsub)
 
-## Step 6: Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+## Step 7: Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 Use the ddply funktion from the plyr library to creat a new data set
 
-## Step 7: Write out the tidy data set
+## Step 8: Write out the tidy data set
 Write the tidy data set into the finalData_tidy.txt file
 
 
