@@ -9,5 +9,5 @@ This is my solution for the Coursera Course Project of Getting and Cleaning Data
 
 ## Note
 The R-Script run_Analysis.R needs the following condition to run. 
-- Donwloaded an unziped data into the directory Getting_and_Cleaning_Data/course_project/UCI HAR Dataset 
+- Donwloaded an unziped data into the directory "Getting_and_Cleaning_Data/course_project/UCI HAR Dataset" in your working directory 
 - Data from: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
