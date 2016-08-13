@@ -16,6 +16,7 @@ R script run_analysis.R that does the following.
 
 ## Source Data
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
 Training Data
 - X_train.txt
 - y_train.txt
